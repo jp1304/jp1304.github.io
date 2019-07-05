@@ -49,6 +49,7 @@ body {
 	font-weight: 200;
     color: var(--color-secondary);
 	font-size: 2em;
+    text-shadow: 1px 1px 1px blue;
 }
 .description {
     font-style: normal;
