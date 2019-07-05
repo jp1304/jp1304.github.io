@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Halant|Merienda+One');
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+:root {
+    --color-main: #EEE9D1;
+    --color-secondary: #e6fa00de;
+    --color-highligths: #000000;
+    --color-highligths2: #7998C9;
+    --color-highligths3: #89C7B6;
+    --color-bg: #0A1C28;
+}
+body {
+	height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(#0094ff, transparent);
+}
+.content {
+    width: 90%;
+    height: auto;
+    color: white;
+    text-align: center;
+    font-size: 54px;
+}
+@media only screen and (max-width: 600px) {
+  .content {
+    font-size: 24px;
+  }
+}
+.title {
+	font-family: 'Didact Gothic';
+    font-weight: 200;
+    font-size: 1.2em;
+    color: var(--color-main);
+    margin: 0;
+}
+.name {
+    font-family: 'Merienda One', cursive;
+	font-weight: 200;
+    color: var(--color-secondary);
+	font-size: 2em;
+}
+.description {
+    font-style: normal;
+    font-family: 'Halant', serif;
+    font-size: 1em;
+    color: var(--color-highligths);
+}
