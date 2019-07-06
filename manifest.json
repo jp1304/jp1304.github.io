@@ -1,0 +1,24 @@
+{
+  "name": "Jp1304 PWA",
+  "short_name": "Mi PWA JP",
+  "lang": "es-ES",
+  "start_url": "https://jp1304.github.io/",
+  "display": "standalone",
+  "theme_color": "#354676",
+  "background_color": "#354676",
+  "icons": [
+    {
+      "src": "./img/icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "./img/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "./img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
