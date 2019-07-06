@@ -2,15 +2,36 @@
 <html lang="es">
 <head>
   <meta charset="utf-8" />
-  <title>🚀 Jean P. Diaz 👾 </title>
+  <title>🚀 Mi Progressive Web App 👾 </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="./main.css">
 </head>
 <body>
-    <div class="content">
-        <h2 class="title">My name is</h2>
-        <h1 class="name">Jean P. Diaz</h1>
-        <p class="description">And this is our first PWA!</p>
+  <div class="scene-ctn"> <!--It's just fancy code-->
+    <div id="scene">
+      <div class="bg-main" data-depth="0"></div>
+      <div class="bg bg1" data-depth="1">
+        <img src="./img/shield.svg">
+      </div>
+      <div class="bg bg2" data-depth="2">
+        <img src="./img/pwa.png">
+      </div>
+      <div class="bg bg3" data-depth="1.8">
+        <img src="./img/chrome.png">
+      </div>
     </div>
+  </div>
+  <div class="content"> <!--Here you can change the content-->
+    <h2 class="title">Hola mi nombre es</h2>
+    <h1 class="name">Jean Paul Diaz</h1> <!--Change it for your name dude!-->
+    <p class="description">Y esta es mi primera PWA!</p> <!-- and here we go! -->
+  </div>
+  <footer>
+    <a href="https://io19.gdglima.com">
+      <img src="./img/io.gif">
+    </a>
+  </footer>
+  <script src="./js/parallax.min.js"></script> <!-- It's just a fancy library -->
+  <script src="./js/index.js"></script>
 </body>
 </html>
