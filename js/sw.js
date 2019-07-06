@@ -4,8 +4,7 @@ addEventListener('install', function(e) {
             return cache.addAll([
                 '/',
                 '/index.html',
-                '/index.js',
-                '/canvas.js',
+                '/js/index.js',
                 '/main.css'
             ]);
         })
